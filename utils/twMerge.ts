@@ -1,1 +1,2 @@
-export { twMerge, twJoin } from "tailwind-merge";
+import { twMerge } from "tailwind-merge";
+export default twMerge;
