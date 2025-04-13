@@ -16,8 +16,8 @@ export default defineNuxtPlugin((nuxtApp) => {
       const elClass = el?.classList?.value ?? "";
       const vClass = node?.ctx?.attrs?.class ?? "";
 
-      // no need to merge classes if both are empty
-      if (elClass.length < 1 && vClass.length < 1) return;
+      // no need to merge classes if only one class is present
+      if (elClass.length < 1 || vClass.length < 1) return;
 
       el.classList.value = twMerge(elClass, vClass);
    };
