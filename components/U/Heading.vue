@@ -15,7 +15,7 @@ const tag = computed(() => {
    }
 });
 
-const headingStyles = tv({
+const classes = tv({
    base: "font-medium",
    variants: {
       size: {
@@ -31,7 +31,7 @@ const headingStyles = tv({
 </script>
 
 <template>
-   <component :is="tag" :class="headingStyles({ size })">
+   <component :is="tag" :class="classes({ size })" v-tw-merge>
       <slot />
    </component>
 </template>
