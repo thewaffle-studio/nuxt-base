@@ -7,21 +7,21 @@ const { size = "default" } = defineProps<Props>();
 const tag = computed(() => {
    switch (size) {
       case "lg":
-         return "h2";
+         return "h3";
       case "xl":
          return "h1";
       default:
-         return "h3";
+         return "h6";
    }
 });
 
 const headingStyles = tv({
-   base: "font-bold",
+   base: "font-medium",
    variants: {
       size: {
-         default: "text-2xl",
-         lg: "text-3xl",
-         xl: "text-4xl",
+         default: "text-base",
+         lg: "text-lg",
+         xl: "text-2xl",
       },
    },
    defaultVariants: {
