@@ -1,6 +1,7 @@
 {
    "name": "@waffle/nuxt-base",
    "type": "module",
+   "main": "./nuxt.config.ts",
    "scripts": {
       "build": "nuxt build",
       "dev": "nuxt dev",
@@ -20,6 +21,7 @@
       "vue-router": "^4.5.0"
    },
    "devDependencies": {
-      "@biomejs/biome": "^1.9.4"
+      "@biomejs/biome": "^1.9.4",
+      "@types/node": "^22.14.1"
    }
 }
