@@ -1,5 +1,5 @@
 <template>
    <UApp>
-      <UHeading>Hi</UHeading>
+      <UHeading class="text-xs">Hi</UHeading>
    </UApp>
 </template>
