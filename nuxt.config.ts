@@ -10,9 +10,6 @@ const resolvePath = (path: string) => resolve(currentDir, path);
 export default defineNuxtConfig({
    compatibilityDate: "2024-11-01",
    devtools: { enabled: true },
-   $meta: {
-      name: "nuxt-base", // layer name
-   },
    vite: {
       plugins: [tailwindcss()],
    },
