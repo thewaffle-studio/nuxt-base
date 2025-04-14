@@ -1,7 +1,6 @@
 {
    "name": "@waffle/nuxt-base",
    "type": "module",
-   "main": "./nuxt.config.ts",
    "scripts": {
       "build": "nuxt build",
       "dev": "nuxt dev .playground",
