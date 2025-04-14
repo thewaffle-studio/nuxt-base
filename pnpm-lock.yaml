@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@nuxt/icon':
+        specifier: ^1.12.0
+        version: 1.12.0(magicast@0.3.5)(vite@6.2.6(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.3))
       '@nuxt/image':
         specifier: ^1.10.0
         version: 1.10.0(db0@0.3.1)(ioredis@5.6.1)(magicast@0.3.5)

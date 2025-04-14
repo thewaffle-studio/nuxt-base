@@ -16,7 +16,7 @@ export default defineNuxtConfig({
    vite: {
       plugins: [tailwindcss()],
    },
-   modules: ["@nuxt/ui", "@nuxt/image"],
+   modules: ["@nuxt/icon", "@nuxt/ui", "@nuxt/image"],
    plugins: [resolvePath("./plugins/directives/tailwind-merge.ts")],
    css: [resolvePath("./assets/css/main.css")],
 });
