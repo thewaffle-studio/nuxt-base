@@ -8,6 +8,6 @@ export default defineNuxtConfig({
       plugins: [tailwindcss()],
    },
    modules: ["@nuxt/ui", "@nuxt/image"],
-   plugins: ["~/plugins/directives/tailwind-merge.ts"],
-   css: ["~/assets/css/main.css"],
+   plugins: ["./plugins/directives/tailwind-merge.ts"],
+   css: ["./assets/css/main.css"],
 });
